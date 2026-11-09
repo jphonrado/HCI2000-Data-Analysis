@@ -1,0 +1,90 @@
+{
+  "seed": 20261107,
+  "survey_issues": {
+    "DUMMY001, DUMMY007": "TLX submitted in one batch 2.4-3.2 h after the session (mirrors real P001: submitted ~2h45m after)",
+    "DUMMY004": "background questionnaire submitted twice (duplicate respondent)",
+    "DUMMY005": "TLX participant code typed lowercase ('dummy005')",
+    "DUMMY010": "TLX participant code has trailing space",
+    "DUMMY012": "TLX participant code unresolvable typo ('DUMY012'); resolve via timestamp vs session events",
+    "DUMMY006": "first condition's TLX submitted twice with different ratings",
+    "DUMMY014": "TLX for the 4th condition never submitted",
+    "DUMMY008": "background answer 'Usually across several windows' (violates the single-window eligibility criterion)",
+    "DUMMY002": "Effort blank in H-H",
+    "ALL": "background form has NO participant code (name only); name->code link is in identity_key_DUMMY_ONLY.csv, which must stay separate",
+    "ALL (assumed)": "answer vocabulary beyond P001's observed values is guessed; timestamps are local Asia/Manila (UTC+8), unpadded M/D/YYYY H:MM:SS"
+  },
+  "note": "SIMULATED. Effects are on log-RT, logit(first correct) and TLX points.",
+  "effects": {
+    "log_rt_base_median_s": 1.6,
+    "load_high": 0.4,
+    "vertical_at_low": 0.05,
+    "vertical_x_high": -0.3,
+    "per_position": 0.02,
+    "repeat_target": -0.12,
+    "per_block_practice": -0.04,
+    "penalty_s_per_incorrect": 0.9,
+    "set_offsets": {
+      "A": 0.0,
+      "B": 0.05,
+      "C": -0.03,
+      "D": 0.04
+    },
+    "sd_participant": 0.2,
+    "sd_residual": 0.28,
+    "acc_logit_base": 1.4,
+    "acc_high": -0.9,
+    "acc_vertical_x_high": 0.8,
+    "acc_vertical": -0.1,
+    "sd_participant_acc": 0.5,
+    "tlx_scale": "0-5 integer (matches the real Google Form; the paper says 0-100 in steps of 5)",
+    "tlx_high": {
+      "mental_demand": 0.75,
+      "effort": 0.5,
+      "frustration": 0.5,
+      "temporal_demand": 0.4
+    },
+    "tlx_vertical_x_high": {
+      "mental_demand": -0.4,
+      "effort": -0.3,
+      "frustration": -0.3
+    },
+    "p_random_timeout_high": 0.01,
+    "p_aux_misses_selection": 0.03
+  },
+  "planted_issues": {
+    "DUMMY003": {
+      "block2_trial4": "timeout_no_selection"
+    },
+    "DUMMY005": {
+      "block2_trial3": "interrupted"
+    },
+    "DUMMY007": {
+      "block3_trial2": "coder_switches_not_incorrect_plus_1"
+    },
+    "DUMMY009": {
+      "block1_trial5": "technical_loss"
+    },
+    "DUMMY011": {
+      "file": "trials_aux has wrong participant/mode (mirrors real P001 file: TEST003/pilot)"
+    },
+    "DUMMY013": {
+      "block4_trial5": "completed_manual"
+    },
+    "DUMMY015": {
+      "block2_trial1": "duplicate_video_coding_row"
+    },
+    "DUMMY016": {
+      "tlx": "only 14 of 15 pairwise comparisons"
+    },
+    "DUMMY002": {
+      "tlx": "Effort left blank in H-H"
+    }
+  },
+  "other_deliberate_properties": [
+    "aux (polling) elapsed time = visible RT + 0.06-0.14 s marker lag + 0-0.05 s polling delay (systematic positive bias)",
+    "~3% of incorrect-selection trials: polling missed one selection (aux counts lower than video)",
+    "main_data.csv retrieval time = aux auto-detection time (controller-derived, video_verified=false)",
+    "video frame rate 30 fps; coder 1 frame jitter +-1 on start/target; coder 2 independent jitter, ~4% count disagreements",
+    "mode is 'test' by default so these can never be mistaken for main-study data"
+  ]
+}
