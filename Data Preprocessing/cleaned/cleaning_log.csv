@@ -1,0 +1,11 @@
+stage,issue,n_affected,action
+main,rows with mode != 'test',0,dropped
+main,exact duplicate rows,1,dropped (kept first)
+main,timeout trials (no retrieval time by design),17,"kept, flagged timed_out"
+main,interrupted trials,1,"kept, flagged interrupted (0 are technical loss)"
+block,participant codes needing trim/upper-casing,1,standardised
+block,participant codes not in roster,0,none
+block,duplicate participant+condition submissions,0,none
+block,participants with fewer than 4 conditions rated,0,none
+weighted,participants who did not submit the weighting form,1,['DUMMY013'] -> weighted TLX left blank (not imputed)
+screening,responses without a participant code (not enrolled),1,dropped

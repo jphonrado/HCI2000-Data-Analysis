@@ -1,0 +1,385 @@
+participant,group,block,condition,orientation,tab_load,content_set,trial,target_id,is_repeat,target_task_position,task_tab_count,visible_tab_count,controller_status,retrieval_time_s,total_tab_switches,incorrect_selections,first_selection_correct,no_selection,technical_loss,rt_valid,timed_out,interrupted,age,uses_browser_desktop,desktop_browse_freq,chrome_main,multi_tab_freq,window_habit,usual_orientation
+DUMMY001,2,1,H-H,H,high,C,T1,P3,0,7,15,16,completed_auto,10.3047741756,3.0,2.0,False,False,False,True,False,False,29,Yes,Daily,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY001,2,1,H-H,H,high,C,T2,P4,0,10,15,16,completed_auto,10.5230846085,1.0,0.0,True,False,False,True,False,False,29,Yes,Daily,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY001,2,1,H-H,H,high,C,T3,P5,0,13,15,16,completed_auto,15.1096073048,3.0,2.0,False,False,False,True,False,False,29,Yes,Daily,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY001,2,1,H-H,H,high,C,T4,P1,0,3,15,16,completed_auto,7.7284874504,1.0,0.0,True,False,False,True,False,False,29,Yes,Daily,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY001,2,1,H-H,H,high,C,T5,P3,1,7,15,16,completed_auto,9.6237722464,2.0,1.0,False,False,False,True,False,False,29,Yes,Daily,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY001,2,1,H-H,H,high,C,T6,P2,0,5,15,16,completed_auto,5.671807767,1.0,0.0,True,False,False,True,False,False,29,Yes,Daily,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY001,2,2,H-L,H,low,D,T1,P4,0,4,5,6,completed_auto,3.7917137054,1.0,0.0,True,False,False,True,False,False,29,Yes,Daily,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY001,2,2,H-L,H,low,D,T2,P5,0,5,5,6,completed_auto,3.8374644287,1.0,0.0,True,False,False,True,False,False,29,Yes,Daily,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY001,2,2,H-L,H,low,D,T3,P1,0,1,5,6,completed_auto,4.1965307173,2.0,1.0,False,False,False,True,False,False,29,Yes,Daily,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY001,2,2,H-L,H,low,D,T4,P2,0,2,5,6,completed_auto,3.0402186307,1.0,0.0,True,False,False,True,False,False,29,Yes,Daily,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY001,2,2,H-L,H,low,D,T5,P3,0,3,5,6,completed_auto,2.7537561947,4.0,3.0,False,False,False,True,False,False,29,Yes,Daily,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY001,2,2,H-L,H,low,D,T6,P4,1,4,5,6,completed_auto,3.2499528173,1.0,0.0,True,False,False,True,False,False,29,Yes,Daily,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY001,2,3,V-H,V,high,A,T1,P1,0,2,15,16,completed_auto,11.0335551956,2.0,1.0,False,False,False,True,False,False,29,Yes,Daily,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY001,2,3,V-H,V,high,A,T2,P2,0,4,15,16,completed_auto,13.9790394825,3.0,2.0,False,False,False,True,False,False,29,Yes,Daily,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY001,2,3,V-H,V,high,A,T3,P1,1,2,15,16,completed_auto,11.6764431375,2.0,1.0,False,False,False,True,False,False,29,Yes,Daily,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY001,2,3,V-H,V,high,A,T4,P3,0,8,15,16,completed_auto,10.2726511303,2.0,1.0,False,False,False,True,False,False,29,Yes,Daily,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY001,2,3,V-H,V,high,A,T5,P4,0,11,15,16,completed_auto,11.4128380229,1.0,0.0,True,False,False,True,False,False,29,Yes,Daily,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY001,2,3,V-H,V,high,A,T6,P5,0,15,15,16,completed_auto,2.4910862348,1.0,0.0,True,False,False,True,False,False,29,Yes,Daily,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY001,2,4,V-L,V,low,B,T1,P2,0,2,5,6,completed_auto,8.5832306424,1.0,0.0,True,False,False,True,False,False,29,Yes,Daily,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY001,2,4,V-L,V,low,B,T2,P3,0,3,5,6,completed_auto,4.0770563003,1.0,0.0,True,False,False,True,False,False,29,Yes,Daily,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY001,2,4,V-L,V,low,B,T3,P4,0,4,5,6,completed_auto,3.8803969027,1.0,0.0,True,False,False,True,False,False,29,Yes,Daily,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY001,2,4,V-L,V,low,B,T4,P2,1,2,5,6,completed_auto,8.5100632643,1.0,0.0,True,False,False,True,False,False,29,Yes,Daily,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY001,2,4,V-L,V,low,B,T5,P5,0,5,5,6,completed_auto,4.3542892014,1.0,0.0,True,False,False,True,False,False,29,Yes,Daily,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY001,2,4,V-L,V,low,B,T6,P1,0,1,5,6,completed_auto,7.0554083367,1.0,0.0,True,False,False,True,False,False,29,Yes,Daily,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY002,4,1,V-H,V,high,B,T1,P2,0,6,15,16,timeout,,0.0,0.0,,True,False,False,True,False,24,Yes,Daily,No,Almost always,Usually in a single window,Horizontal
+DUMMY002,4,1,V-H,V,high,B,T2,P3,0,9,15,16,completed_auto,7.5771630645,1.0,0.0,True,False,False,True,False,False,24,Yes,Daily,No,Almost always,Usually in a single window,Horizontal
+DUMMY002,4,1,V-H,V,high,B,T3,P4,0,12,15,16,completed_auto,5.5349573919,2.0,1.0,False,False,False,True,False,False,24,Yes,Daily,No,Almost always,Usually in a single window,Horizontal
+DUMMY002,4,1,V-H,V,high,B,T4,P2,1,6,15,16,completed_auto,18.7161506354,1.0,0.0,True,False,False,True,False,False,24,Yes,Daily,No,Almost always,Usually in a single window,Horizontal
+DUMMY002,4,1,V-H,V,high,B,T5,P5,0,14,15,16,completed_auto,7.9917300869,3.0,2.0,False,False,False,True,False,False,24,Yes,Daily,No,Almost always,Usually in a single window,Horizontal
+DUMMY002,4,1,V-H,V,high,B,T6,P1,0,1,15,16,completed_auto,13.5030916294,1.0,0.0,True,False,False,True,False,False,24,Yes,Daily,No,Almost always,Usually in a single window,Horizontal
+DUMMY002,4,2,V-L,V,low,A,T1,P1,0,1,5,6,completed_auto,4.7037121708,2.0,1.0,False,False,False,True,False,False,24,Yes,Daily,No,Almost always,Usually in a single window,Horizontal
+DUMMY002,4,2,V-L,V,low,A,T2,P2,0,2,5,6,completed_auto,4.4371013461,1.0,0.0,True,False,False,True,False,False,24,Yes,Daily,No,Almost always,Usually in a single window,Horizontal
+DUMMY002,4,2,V-L,V,low,A,T3,P1,1,1,5,6,completed_auto,2.7872844555,1.0,0.0,True,False,False,True,False,False,24,Yes,Daily,No,Almost always,Usually in a single window,Horizontal
+DUMMY002,4,2,V-L,V,low,A,T4,P3,0,3,5,6,completed_auto,7.6912211707,1.0,0.0,True,False,False,True,False,False,24,Yes,Daily,No,Almost always,Usually in a single window,Horizontal
+DUMMY002,4,2,V-L,V,low,A,T5,P4,0,4,5,6,completed_auto,4.154398793,1.0,0.0,True,False,False,True,False,False,24,Yes,Daily,No,Almost always,Usually in a single window,Horizontal
+DUMMY002,4,2,V-L,V,low,A,T6,P5,0,5,5,6,completed_auto,2.9603792922,1.0,0.0,True,False,False,True,False,False,24,Yes,Daily,No,Almost always,Usually in a single window,Horizontal
+DUMMY002,4,3,H-H,H,high,D,T1,P4,0,12,15,16,completed_auto,8.2982048824,2.0,1.0,False,False,False,True,False,False,24,Yes,Daily,No,Almost always,Usually in a single window,Horizontal
+DUMMY002,4,3,H-H,H,high,D,T2,P5,0,15,15,16,completed_auto,9.9197278958,2.0,1.0,False,False,False,True,False,False,24,Yes,Daily,No,Almost always,Usually in a single window,Horizontal
+DUMMY002,4,3,H-H,H,high,D,T3,P1,0,2,15,16,completed_auto,6.9211694171,2.0,1.0,False,False,False,True,False,False,24,Yes,Daily,No,Almost always,Usually in a single window,Horizontal
+DUMMY002,4,3,H-H,H,high,D,T4,P2,0,6,15,16,completed_auto,11.6061438135,2.0,1.0,False,False,False,True,False,False,24,Yes,Daily,No,Almost always,Usually in a single window,Horizontal
+DUMMY002,4,3,H-H,H,high,D,T5,P3,0,8,15,16,completed_auto,12.6139099545,2.0,1.0,False,False,False,True,False,False,24,Yes,Daily,No,Almost always,Usually in a single window,Horizontal
+DUMMY002,4,3,H-H,H,high,D,T6,P4,1,12,15,16,completed_auto,5.5346828903,1.0,0.0,True,False,False,True,False,False,24,Yes,Daily,No,Almost always,Usually in a single window,Horizontal
+DUMMY002,4,4,H-L,H,low,C,T1,P3,0,3,5,6,completed_auto,4.5997767175,1.0,0.0,True,False,False,True,False,False,24,Yes,Daily,No,Almost always,Usually in a single window,Horizontal
+DUMMY002,4,4,H-L,H,low,C,T2,P4,0,4,5,6,completed_auto,3.8515946595,1.0,0.0,True,False,False,True,False,False,24,Yes,Daily,No,Almost always,Usually in a single window,Horizontal
+DUMMY002,4,4,H-L,H,low,C,T3,P5,0,5,5,6,completed_auto,2.0766556963,2.0,1.0,False,False,False,True,False,False,24,Yes,Daily,No,Almost always,Usually in a single window,Horizontal
+DUMMY002,4,4,H-L,H,low,C,T4,P1,0,1,5,6,completed_auto,3.9213231587,1.0,0.0,True,False,False,True,False,False,24,Yes,Daily,No,Almost always,Usually in a single window,Horizontal
+DUMMY002,4,4,H-L,H,low,C,T5,P3,1,3,5,6,completed_auto,4.6980373493,2.0,1.0,False,False,False,True,False,False,24,Yes,Daily,No,Almost always,Usually in a single window,Horizontal
+DUMMY002,4,4,H-L,H,low,C,T6,P2,0,2,5,6,completed_auto,4.3787905182,1.0,0.0,True,False,False,True,False,False,24,Yes,Daily,No,Almost always,Usually in a single window,Horizontal
+DUMMY003,3,1,V-L,V,low,D,T1,P4,0,4,5,6,completed_auto,1.6042771187,1.0,0.0,True,False,False,True,False,False,25,Yes,Daily,Yes,Almost always,Usually in a single window,Horizontal
+DUMMY003,3,1,V-L,V,low,D,T2,P5,0,5,5,6,completed_auto,3.2154071738,2.0,1.0,False,False,False,True,False,False,25,Yes,Daily,Yes,Almost always,Usually in a single window,Horizontal
+DUMMY003,3,1,V-L,V,low,D,T3,P1,0,1,5,6,completed_auto,1.6741721029,1.0,0.0,True,False,False,True,False,False,25,Yes,Daily,Yes,Almost always,Usually in a single window,Horizontal
+DUMMY003,3,1,V-L,V,low,D,T4,P2,0,2,5,6,completed_auto,2.7896633616,1.0,0.0,True,False,False,True,False,False,25,Yes,Daily,Yes,Almost always,Usually in a single window,Horizontal
+DUMMY003,3,1,V-L,V,low,D,T5,P3,0,3,5,6,completed_auto,2.7996432174,1.0,0.0,True,False,False,True,False,False,25,Yes,Daily,Yes,Almost always,Usually in a single window,Horizontal
+DUMMY003,3,1,V-L,V,low,D,T6,P4,1,4,5,6,completed_auto,2.8972673767,2.0,1.0,False,False,False,True,False,False,25,Yes,Daily,Yes,Almost always,Usually in a single window,Horizontal
+DUMMY003,3,2,V-H,V,high,C,T1,P3,0,7,15,16,completed_auto,3.9091195023,1.0,0.0,True,False,False,True,False,False,25,Yes,Daily,Yes,Almost always,Usually in a single window,Horizontal
+DUMMY003,3,2,V-H,V,high,C,T2,P4,0,10,15,16,completed_auto,4.1111498268,3.0,2.0,False,False,False,True,False,False,25,Yes,Daily,Yes,Almost always,Usually in a single window,Horizontal
+DUMMY003,3,2,V-H,V,high,C,T3,P5,0,13,15,16,completed_auto,7.4600383441,1.0,0.0,True,False,False,True,False,False,25,Yes,Daily,Yes,Almost always,Usually in a single window,Horizontal
+DUMMY003,3,2,V-H,V,high,C,T4,P1,0,3,15,16,completed_auto,2.8630368801,1.0,0.0,True,False,False,True,False,False,25,Yes,Daily,Yes,Almost always,Usually in a single window,Horizontal
+DUMMY003,3,2,V-H,V,high,C,T5,P3,1,7,15,16,completed_auto,3.1178133937,3.0,2.0,False,False,False,True,False,False,25,Yes,Daily,Yes,Almost always,Usually in a single window,Horizontal
+DUMMY003,3,2,V-H,V,high,C,T6,P2,0,5,15,16,completed_auto,4.2754074929,2.0,1.0,False,False,False,True,False,False,25,Yes,Daily,Yes,Almost always,Usually in a single window,Horizontal
+DUMMY003,3,3,H-L,H,low,B,T1,P2,0,2,5,6,completed_auto,3.0825165212,2.0,1.0,False,False,False,True,False,False,25,Yes,Daily,Yes,Almost always,Usually in a single window,Horizontal
+DUMMY003,3,3,H-L,H,low,B,T2,P3,0,3,5,6,completed_auto,2.6812430556,1.0,0.0,True,False,False,True,False,False,25,Yes,Daily,Yes,Almost always,Usually in a single window,Horizontal
+DUMMY003,3,3,H-L,H,low,B,T3,P4,0,4,5,6,completed_auto,1.6131642749,1.0,0.0,True,False,False,True,False,False,25,Yes,Daily,Yes,Almost always,Usually in a single window,Horizontal
+DUMMY003,3,3,H-L,H,low,B,T4,P2,1,2,5,6,completed_auto,3.132594029,1.0,0.0,True,False,False,True,False,False,25,Yes,Daily,Yes,Almost always,Usually in a single window,Horizontal
+DUMMY003,3,3,H-L,H,low,B,T5,P5,0,5,5,6,completed_auto,2.9011653897,1.0,0.0,True,False,False,True,False,False,25,Yes,Daily,Yes,Almost always,Usually in a single window,Horizontal
+DUMMY003,3,3,H-L,H,low,B,T6,P1,0,1,5,6,completed_auto,2.0369506841,1.0,0.0,True,False,False,True,False,False,25,Yes,Daily,Yes,Almost always,Usually in a single window,Horizontal
+DUMMY003,3,4,H-H,H,high,A,T1,P1,0,2,15,16,completed_auto,11.1877131026,1.0,0.0,True,False,False,True,False,False,25,Yes,Daily,Yes,Almost always,Usually in a single window,Horizontal
+DUMMY003,3,4,H-H,H,high,A,T2,P2,0,4,15,16,completed_auto,6.9471191914,2.0,1.0,False,False,False,True,False,False,25,Yes,Daily,Yes,Almost always,Usually in a single window,Horizontal
+DUMMY003,3,4,H-H,H,high,A,T3,P1,1,2,15,16,completed_auto,3.2279401713,3.0,2.0,False,False,False,True,False,False,25,Yes,Daily,Yes,Almost always,Usually in a single window,Horizontal
+DUMMY003,3,4,H-H,H,high,A,T4,P3,0,8,15,16,timeout,,0.0,0.0,,True,False,False,True,False,25,Yes,Daily,Yes,Almost always,Usually in a single window,Horizontal
+DUMMY003,3,4,H-H,H,high,A,T5,P4,0,11,15,16,completed_auto,4.5006780865,1.0,0.0,True,False,False,True,False,False,25,Yes,Daily,Yes,Almost always,Usually in a single window,Horizontal
+DUMMY003,3,4,H-H,H,high,A,T6,P5,0,15,15,16,completed_auto,6.3319637974,2.0,1.0,False,False,False,True,False,False,25,Yes,Daily,Yes,Almost always,Usually in a single window,Horizontal
+DUMMY004,1,1,H-L,H,low,A,T1,P1,0,1,5,6,completed_auto,2.9737773314,2.0,1.0,False,False,False,True,False,False,24,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY004,1,1,H-L,H,low,A,T2,P2,0,2,5,6,completed_auto,5.6185685461,1.0,0.0,True,False,False,True,False,False,24,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY004,1,1,H-L,H,low,A,T3,P1,1,1,5,6,completed_auto,4.0714087812,1.0,0.0,True,False,False,True,False,False,24,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY004,1,1,H-L,H,low,A,T4,P3,0,3,5,6,completed_auto,5.5243575941,1.0,0.0,True,False,False,True,False,False,24,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY004,1,1,H-L,H,low,A,T5,P4,0,4,5,6,completed_auto,4.0843767027,1.0,0.0,True,False,False,True,False,False,24,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY004,1,1,H-L,H,low,A,T6,P5,0,5,5,6,completed_auto,3.412654663,1.0,0.0,True,False,False,True,False,False,24,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY004,1,2,H-H,H,high,B,T1,P2,0,6,15,16,completed_auto,8.0826971654,3.0,2.0,False,False,False,True,False,False,24,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY004,1,2,H-H,H,high,B,T2,P3,0,9,15,16,completed_auto,7.9003131153,3.0,2.0,False,False,False,True,False,False,24,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY004,1,2,H-H,H,high,B,T3,P4,0,12,15,16,completed_auto,9.270623245,3.0,2.0,False,False,False,True,False,False,24,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY004,1,2,H-H,H,high,B,T4,P2,1,6,15,16,completed_auto,5.1814458412,1.0,0.0,True,False,False,True,False,False,24,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY004,1,2,H-H,H,high,B,T5,P5,0,14,15,16,interrupted,,,,,,False,False,False,True,24,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY004,1,2,H-H,H,high,B,T6,P1,0,1,15,16,completed_auto,10.307681907,4.0,3.0,False,False,False,True,False,False,24,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY004,1,3,V-L,V,low,C,T1,P3,0,3,5,6,completed_auto,3.7317222421,1.0,0.0,True,False,False,True,False,False,24,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY004,1,3,V-L,V,low,C,T2,P4,0,4,5,6,completed_auto,4.1744991415,1.0,0.0,True,False,False,True,False,False,24,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY004,1,3,V-L,V,low,C,T3,P5,0,5,5,6,completed_auto,6.2171675515,2.0,1.0,False,False,False,True,False,False,24,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY004,1,3,V-L,V,low,C,T4,P1,0,1,5,6,completed_auto,3.1261975502,1.0,0.0,True,False,False,True,False,False,24,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY004,1,3,V-L,V,low,C,T5,P3,1,3,5,6,completed_auto,3.5864046656,1.0,0.0,True,False,False,True,False,False,24,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY004,1,3,V-L,V,low,C,T6,P2,0,2,5,6,completed_auto,5.1418241325,1.0,0.0,True,False,False,True,False,False,24,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY004,1,4,V-H,V,high,D,T1,P4,0,12,15,16,completed_auto,8.94472543,2.0,1.0,False,False,False,True,False,False,24,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY004,1,4,V-H,V,high,D,T2,P5,0,15,15,16,completed_auto,7.8634165007,2.0,1.0,False,False,False,True,False,False,24,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY004,1,4,V-H,V,high,D,T3,P1,0,2,15,16,completed_auto,4.2545899808,2.0,1.0,False,False,False,True,False,False,24,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY004,1,4,V-H,V,high,D,T4,P2,0,6,15,16,timeout,,1.0,1.0,False,False,False,False,True,False,24,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY004,1,4,V-H,V,high,D,T5,P3,0,8,15,16,completed_auto,3.9404009634,3.0,2.0,False,False,False,True,False,False,24,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY004,1,4,V-H,V,high,D,T6,P4,1,12,15,16,completed_auto,5.492947752,2.0,1.0,False,False,False,True,False,False,24,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY005,3,1,V-L,V,low,D,T1,P4,0,4,5,6,completed_auto,3.8570748999,1.0,0.0,True,False,False,True,False,False,28,Yes,Daily,Yes,Almost always,Usually in a single window,Vertical
+DUMMY005,3,1,V-L,V,low,D,T2,P5,0,5,5,6,completed_auto,2.4100941931,1.0,0.0,True,False,False,True,False,False,28,Yes,Daily,Yes,Almost always,Usually in a single window,Vertical
+DUMMY005,3,1,V-L,V,low,D,T3,P1,0,1,5,6,completed_auto,2.2258079371,2.0,1.0,False,False,False,True,False,False,28,Yes,Daily,Yes,Almost always,Usually in a single window,Vertical
+DUMMY005,3,1,V-L,V,low,D,T4,P2,0,2,5,6,completed_auto,4.4460488156,1.0,0.0,True,False,False,True,False,False,28,Yes,Daily,Yes,Almost always,Usually in a single window,Vertical
+DUMMY005,3,1,V-L,V,low,D,T5,P3,0,3,5,6,completed_auto,2.5599323229,2.0,1.0,False,False,False,True,False,False,28,Yes,Daily,Yes,Almost always,Usually in a single window,Vertical
+DUMMY005,3,1,V-L,V,low,D,T6,P4,1,4,5,6,completed_auto,1.9627118937,2.0,1.0,False,False,False,True,False,False,28,Yes,Daily,Yes,Almost always,Usually in a single window,Vertical
+DUMMY005,3,2,V-H,V,high,C,T1,P3,0,7,15,16,completed_auto,6.9163009743,2.0,1.0,False,False,False,True,False,False,28,Yes,Daily,Yes,Almost always,Usually in a single window,Vertical
+DUMMY005,3,2,V-H,V,high,C,T2,P4,0,10,15,16,completed_auto,4.4902641377,1.0,0.0,True,False,False,True,False,False,28,Yes,Daily,Yes,Almost always,Usually in a single window,Vertical
+DUMMY005,3,2,V-H,V,high,C,T3,P5,0,13,15,16,completed_auto,4.8418359106,1.0,0.0,True,False,False,True,False,False,28,Yes,Daily,Yes,Almost always,Usually in a single window,Vertical
+DUMMY005,3,2,V-H,V,high,C,T4,P1,0,3,15,16,completed_auto,7.2922476619,2.0,1.0,False,False,False,True,False,False,28,Yes,Daily,Yes,Almost always,Usually in a single window,Vertical
+DUMMY005,3,2,V-H,V,high,C,T5,P3,1,7,15,16,completed_auto,3.3719230585,1.0,0.0,True,False,False,True,False,False,28,Yes,Daily,Yes,Almost always,Usually in a single window,Vertical
+DUMMY005,3,2,V-H,V,high,C,T6,P2,0,5,15,16,completed_auto,2.0625170503,1.0,0.0,True,False,False,True,False,False,28,Yes,Daily,Yes,Almost always,Usually in a single window,Vertical
+DUMMY005,3,3,H-L,H,low,B,T1,P2,0,2,5,6,completed_auto,3.312237577,1.0,0.0,True,False,False,True,False,False,28,Yes,Daily,Yes,Almost always,Usually in a single window,Vertical
+DUMMY005,3,3,H-L,H,low,B,T2,P3,0,3,5,6,completed_auto,5.8109557956,3.0,2.0,False,False,False,True,False,False,28,Yes,Daily,Yes,Almost always,Usually in a single window,Vertical
+DUMMY005,3,3,H-L,H,low,B,T3,P4,0,4,5,6,completed_auto,3.9097709487,1.0,0.0,True,False,False,True,False,False,28,Yes,Daily,Yes,Almost always,Usually in a single window,Vertical
+DUMMY005,3,3,H-L,H,low,B,T4,P2,1,2,5,6,completed_auto,2.1707368379,1.0,0.0,True,False,False,True,False,False,28,Yes,Daily,Yes,Almost always,Usually in a single window,Vertical
+DUMMY005,3,3,H-L,H,low,B,T5,P5,0,5,5,6,completed_auto,3.3263397227,1.0,0.0,True,False,False,True,False,False,28,Yes,Daily,Yes,Almost always,Usually in a single window,Vertical
+DUMMY005,3,3,H-L,H,low,B,T6,P1,0,1,5,6,completed_auto,2.1192845862,1.0,0.0,True,False,False,True,False,False,28,Yes,Daily,Yes,Almost always,Usually in a single window,Vertical
+DUMMY005,3,4,H-H,H,high,A,T1,P1,0,2,15,16,completed_auto,7.2259106654,4.0,3.0,False,False,False,True,False,False,28,Yes,Daily,Yes,Almost always,Usually in a single window,Vertical
+DUMMY005,3,4,H-H,H,high,A,T2,P2,0,4,15,16,completed_auto,13.1648334336,2.0,1.0,False,False,False,True,False,False,28,Yes,Daily,Yes,Almost always,Usually in a single window,Vertical
+DUMMY005,3,4,H-H,H,high,A,T3,P1,1,2,15,16,completed_auto,6.2404775248,2.0,1.0,False,False,False,True,False,False,28,Yes,Daily,Yes,Almost always,Usually in a single window,Vertical
+DUMMY005,3,4,H-H,H,high,A,T4,P3,0,8,15,16,completed_auto,7.9160307816,2.0,1.0,False,False,False,True,False,False,28,Yes,Daily,Yes,Almost always,Usually in a single window,Vertical
+DUMMY005,3,4,H-H,H,high,A,T5,P4,0,11,15,16,completed_auto,8.8852854973,2.0,1.0,False,False,False,True,False,False,28,Yes,Daily,Yes,Almost always,Usually in a single window,Vertical
+DUMMY005,3,4,H-H,H,high,A,T6,P5,0,15,15,16,completed_auto,7.5868643968,1.0,0.0,True,False,False,True,False,False,28,Yes,Daily,Yes,Almost always,Usually in a single window,Vertical
+DUMMY006,4,1,V-H,V,high,B,T1,P2,0,6,15,16,completed_auto,5.0298180677,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY006,4,1,V-H,V,high,B,T2,P3,0,9,15,16,completed_auto,6.5064520899,3.0,2.0,False,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY006,4,1,V-H,V,high,B,T3,P4,0,12,15,16,completed_auto,12.4353723739,2.0,1.0,False,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY006,4,1,V-H,V,high,B,T4,P2,1,6,15,16,completed_auto,5.6603646885,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY006,4,1,V-H,V,high,B,T5,P5,0,14,15,16,completed_auto,4.4934722482,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY006,4,1,V-H,V,high,B,T6,P1,0,1,15,16,completed_auto,8.572713507,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY006,4,2,V-L,V,low,A,T1,P1,0,1,5,6,completed_auto,2.6479016064,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY006,4,2,V-L,V,low,A,T2,P2,0,2,5,6,completed_auto,2.5503630345,2.0,1.0,False,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY006,4,2,V-L,V,low,A,T3,P1,1,1,5,6,completed_auto,2.6102394052,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY006,4,2,V-L,V,low,A,T4,P3,0,3,5,6,completed_auto,3.3356311493,2.0,1.0,False,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY006,4,2,V-L,V,low,A,T5,P4,0,4,5,6,completed_auto,5.3968403059,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY006,4,2,V-L,V,low,A,T6,P5,0,5,5,6,completed_auto,2.7938226039,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY006,4,3,H-H,H,high,D,T1,P4,0,12,15,16,completed_auto,9.1075972289,3.0,2.0,False,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY006,4,3,H-H,H,high,D,T2,P5,0,15,15,16,completed_auto,4.3518198432,2.0,1.0,False,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY006,4,3,H-H,H,high,D,T3,P1,0,2,15,16,completed_auto,6.3361893172,2.0,1.0,False,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY006,4,3,H-H,H,high,D,T4,P2,0,6,15,16,completed_auto,11.5687190098,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY006,4,3,H-H,H,high,D,T5,P3,0,8,15,16,completed_auto,4.3276511992,2.0,1.0,False,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY006,4,3,H-H,H,high,D,T6,P4,1,12,15,16,completed_auto,7.931440098,3.0,2.0,False,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY006,4,4,H-L,H,low,C,T1,P3,0,3,5,6,completed_auto,5.8341457923,2.0,1.0,False,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY006,4,4,H-L,H,low,C,T2,P4,0,4,5,6,completed_auto,2.987421311,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY006,4,4,H-L,H,low,C,T3,P5,0,5,5,6,completed_auto,5.2864595058,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY006,4,4,H-L,H,low,C,T4,P1,0,1,5,6,completed_auto,7.7070613654,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY006,4,4,H-L,H,low,C,T5,P3,1,3,5,6,completed_auto,2.5448916946,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY006,4,4,H-L,H,low,C,T6,P2,0,2,5,6,completed_auto,4.1382142401,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY007,2,1,H-H,H,high,C,T1,P3,0,7,15,16,completed_auto,6.1333737095,1.0,0.0,True,False,False,True,False,False,21,Yes,Daily,Yes,Sometimes,Usually in a single window,Vertical
+DUMMY007,2,1,H-H,H,high,C,T2,P4,0,10,15,16,completed_auto,4.6881134088,1.0,0.0,True,False,False,True,False,False,21,Yes,Daily,Yes,Sometimes,Usually in a single window,Vertical
+DUMMY007,2,1,H-H,H,high,C,T3,P5,0,13,15,16,completed_auto,8.5322385158,4.0,3.0,False,False,False,True,False,False,21,Yes,Daily,Yes,Sometimes,Usually in a single window,Vertical
+DUMMY007,2,1,H-H,H,high,C,T4,P1,0,3,15,16,timeout,,2.0,2.0,False,False,False,False,True,False,21,Yes,Daily,Yes,Sometimes,Usually in a single window,Vertical
+DUMMY007,2,1,H-H,H,high,C,T5,P3,1,7,15,16,completed_auto,6.3426452744,4.0,3.0,False,False,False,True,False,False,21,Yes,Daily,Yes,Sometimes,Usually in a single window,Vertical
+DUMMY007,2,1,H-H,H,high,C,T6,P2,0,5,15,16,completed_auto,5.9325239199,2.0,1.0,False,False,False,True,False,False,21,Yes,Daily,Yes,Sometimes,Usually in a single window,Vertical
+DUMMY007,2,2,H-L,H,low,D,T1,P4,0,4,5,6,completed_auto,1.7958167418,1.0,0.0,True,False,False,True,False,False,21,Yes,Daily,Yes,Sometimes,Usually in a single window,Vertical
+DUMMY007,2,2,H-L,H,low,D,T2,P5,0,5,5,6,completed_auto,1.7987114727,2.0,1.0,False,False,False,True,False,False,21,Yes,Daily,Yes,Sometimes,Usually in a single window,Vertical
+DUMMY007,2,2,H-L,H,low,D,T3,P1,0,1,5,6,completed_auto,2.6145406606,2.0,1.0,False,False,False,True,False,False,21,Yes,Daily,Yes,Sometimes,Usually in a single window,Vertical
+DUMMY007,2,2,H-L,H,low,D,T4,P2,0,2,5,6,timeout,,2.0,2.0,False,False,False,False,True,False,21,Yes,Daily,Yes,Sometimes,Usually in a single window,Vertical
+DUMMY007,2,2,H-L,H,low,D,T5,P3,0,3,5,6,completed_auto,6.9533227911,1.0,0.0,True,False,False,True,False,False,21,Yes,Daily,Yes,Sometimes,Usually in a single window,Vertical
+DUMMY007,2,2,H-L,H,low,D,T6,P4,1,4,5,6,completed_auto,2.713890033,1.0,0.0,True,False,False,True,False,False,21,Yes,Daily,Yes,Sometimes,Usually in a single window,Vertical
+DUMMY007,2,3,V-H,V,high,A,T1,P1,0,2,15,16,completed_auto,7.4268006186,3.0,2.0,False,False,False,True,False,False,21,Yes,Daily,Yes,Sometimes,Usually in a single window,Vertical
+DUMMY007,2,3,V-H,V,high,A,T2,P2,0,4,15,16,completed_auto,5.3940451335,1.0,0.0,True,False,False,True,False,False,21,Yes,Daily,Yes,Sometimes,Usually in a single window,Vertical
+DUMMY007,2,3,V-H,V,high,A,T3,P1,1,2,15,16,completed_auto,3.6631260109,1.0,0.0,True,False,False,True,False,False,21,Yes,Daily,Yes,Sometimes,Usually in a single window,Vertical
+DUMMY007,2,3,V-H,V,high,A,T4,P3,0,8,15,16,completed_auto,5.1481355241,3.0,2.0,False,False,False,True,False,False,21,Yes,Daily,Yes,Sometimes,Usually in a single window,Vertical
+DUMMY007,2,3,V-H,V,high,A,T5,P4,0,11,15,16,completed_auto,14.7692496919,3.0,2.0,False,False,False,True,False,False,21,Yes,Daily,Yes,Sometimes,Usually in a single window,Vertical
+DUMMY007,2,3,V-H,V,high,A,T6,P5,0,15,15,16,completed_auto,2.4471233004,1.0,0.0,True,False,False,True,False,False,21,Yes,Daily,Yes,Sometimes,Usually in a single window,Vertical
+DUMMY007,2,4,V-L,V,low,B,T1,P2,0,2,5,6,completed_auto,6.8442167952,1.0,0.0,True,False,False,True,False,False,21,Yes,Daily,Yes,Sometimes,Usually in a single window,Vertical
+DUMMY007,2,4,V-L,V,low,B,T2,P3,0,3,5,6,completed_auto,1.3494401222,1.0,0.0,True,False,False,True,False,False,21,Yes,Daily,Yes,Sometimes,Usually in a single window,Vertical
+DUMMY007,2,4,V-L,V,low,B,T3,P4,0,4,5,6,completed_auto,3.898561142,1.0,0.0,True,False,False,True,False,False,21,Yes,Daily,Yes,Sometimes,Usually in a single window,Vertical
+DUMMY007,2,4,V-L,V,low,B,T4,P2,1,2,5,6,completed_auto,3.0025447058,1.0,0.0,True,False,False,True,False,False,21,Yes,Daily,Yes,Sometimes,Usually in a single window,Vertical
+DUMMY007,2,4,V-L,V,low,B,T5,P5,0,5,5,6,completed_auto,3.4963522887,1.0,0.0,True,False,False,True,False,False,21,Yes,Daily,Yes,Sometimes,Usually in a single window,Vertical
+DUMMY007,2,4,V-L,V,low,B,T6,P1,0,1,5,6,completed_auto,1.952726527,1.0,0.0,True,False,False,True,False,False,21,Yes,Daily,Yes,Sometimes,Usually in a single window,Vertical
+DUMMY008,1,1,H-L,H,low,A,T1,P1,0,1,5,6,completed_auto,6.1447934496,3.0,2.0,False,False,False,True,False,False,19,Yes,Daily,Yes,Often,Usually in a single window,Vertical
+DUMMY008,1,1,H-L,H,low,A,T2,P2,0,2,5,6,completed_auto,4.3144910586,1.0,0.0,True,False,False,True,False,False,19,Yes,Daily,Yes,Often,Usually in a single window,Vertical
+DUMMY008,1,1,H-L,H,low,A,T3,P1,1,1,5,6,completed_auto,2.9009160849,2.0,1.0,False,False,False,True,False,False,19,Yes,Daily,Yes,Often,Usually in a single window,Vertical
+DUMMY008,1,1,H-L,H,low,A,T4,P3,0,3,5,6,completed_auto,5.113667535,1.0,0.0,True,False,False,True,False,False,19,Yes,Daily,Yes,Often,Usually in a single window,Vertical
+DUMMY008,1,1,H-L,H,low,A,T5,P4,0,4,5,6,completed_auto,5.9982671874,1.0,0.0,True,False,False,True,False,False,19,Yes,Daily,Yes,Often,Usually in a single window,Vertical
+DUMMY008,1,1,H-L,H,low,A,T6,P5,0,5,5,6,completed_auto,3.950949567,2.0,1.0,False,False,False,True,False,False,19,Yes,Daily,Yes,Often,Usually in a single window,Vertical
+DUMMY008,1,2,H-H,H,high,B,T1,P2,0,6,15,16,completed_auto,11.6658021283,1.0,0.0,True,False,False,True,False,False,19,Yes,Daily,Yes,Often,Usually in a single window,Vertical
+DUMMY008,1,2,H-H,H,high,B,T2,P3,0,9,15,16,completed_auto,14.8887410705,2.0,1.0,False,False,False,True,False,False,19,Yes,Daily,Yes,Often,Usually in a single window,Vertical
+DUMMY008,1,2,H-H,H,high,B,T3,P4,0,12,15,16,completed_auto,5.952571717,1.0,0.0,True,False,False,True,False,False,19,Yes,Daily,Yes,Often,Usually in a single window,Vertical
+DUMMY008,1,2,H-H,H,high,B,T4,P2,1,6,15,16,completed_auto,7.5228739646,3.0,2.0,False,False,False,True,False,False,19,Yes,Daily,Yes,Often,Usually in a single window,Vertical
+DUMMY008,1,2,H-H,H,high,B,T5,P5,0,14,15,16,timeout,,0.0,0.0,,True,False,False,True,False,19,Yes,Daily,Yes,Often,Usually in a single window,Vertical
+DUMMY008,1,2,H-H,H,high,B,T6,P1,0,1,15,16,completed_auto,9.2497547197,1.0,0.0,True,False,False,True,False,False,19,Yes,Daily,Yes,Often,Usually in a single window,Vertical
+DUMMY008,1,3,V-L,V,low,C,T1,P3,0,3,5,6,completed_auto,10.1872472457,3.0,2.0,False,False,False,True,False,False,19,Yes,Daily,Yes,Often,Usually in a single window,Vertical
+DUMMY008,1,3,V-L,V,low,C,T2,P4,0,4,5,6,completed_auto,4.9372271228,1.0,0.0,True,False,False,True,False,False,19,Yes,Daily,Yes,Often,Usually in a single window,Vertical
+DUMMY008,1,3,V-L,V,low,C,T3,P5,0,5,5,6,completed_auto,8.0360849863,1.0,0.0,True,False,False,True,False,False,19,Yes,Daily,Yes,Often,Usually in a single window,Vertical
+DUMMY008,1,3,V-L,V,low,C,T4,P1,0,1,5,6,completed_auto,3.706834842,3.0,2.0,False,False,False,True,False,False,19,Yes,Daily,Yes,Often,Usually in a single window,Vertical
+DUMMY008,1,3,V-L,V,low,C,T5,P3,1,3,5,6,completed_auto,2.2782858359,1.0,0.0,True,False,False,True,False,False,19,Yes,Daily,Yes,Often,Usually in a single window,Vertical
+DUMMY008,1,3,V-L,V,low,C,T6,P2,0,2,5,6,completed_auto,5.3869373253,2.0,1.0,False,False,False,True,False,False,19,Yes,Daily,Yes,Often,Usually in a single window,Vertical
+DUMMY008,1,4,V-H,V,high,D,T1,P4,0,12,15,16,completed_auto,9.0407395619,4.0,3.0,False,False,False,True,False,False,19,Yes,Daily,Yes,Often,Usually in a single window,Vertical
+DUMMY008,1,4,V-H,V,high,D,T2,P5,0,15,15,16,completed_auto,6.9231970026,2.0,1.0,False,False,False,True,False,False,19,Yes,Daily,Yes,Often,Usually in a single window,Vertical
+DUMMY008,1,4,V-H,V,high,D,T3,P1,0,2,15,16,completed_auto,15.4591166687,2.0,1.0,False,False,False,True,False,False,19,Yes,Daily,Yes,Often,Usually in a single window,Vertical
+DUMMY008,1,4,V-H,V,high,D,T4,P2,0,6,15,16,completed_auto,6.100078518,2.0,1.0,False,False,False,True,False,False,19,Yes,Daily,Yes,Often,Usually in a single window,Vertical
+DUMMY008,1,4,V-H,V,high,D,T5,P3,0,8,15,16,completed_auto,12.3015222504,2.0,1.0,False,False,False,True,False,False,19,Yes,Daily,Yes,Often,Usually in a single window,Vertical
+DUMMY008,1,4,V-H,V,high,D,T6,P4,1,12,15,16,completed_auto,7.1458622083,1.0,0.0,True,False,False,True,False,False,19,Yes,Daily,Yes,Often,Usually in a single window,Vertical
+DUMMY009,4,1,V-H,V,high,B,T1,P2,0,6,15,16,completed_auto,3.4650730657,1.0,0.0,True,False,False,True,False,False,25,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY009,4,1,V-H,V,high,B,T2,P3,0,9,15,16,completed_auto,4.071965636,1.0,0.0,True,False,False,True,False,False,25,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY009,4,1,V-H,V,high,B,T3,P4,0,12,15,16,completed_auto,3.9663220098,1.0,0.0,True,False,False,True,False,False,25,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY009,4,1,V-H,V,high,B,T4,P2,1,6,15,16,completed_auto,3.516039789,2.0,1.0,False,False,False,True,False,False,25,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY009,4,1,V-H,V,high,B,T5,P5,0,14,15,16,completed_auto,3.7624885019,1.0,0.0,True,False,False,True,False,False,25,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY009,4,1,V-H,V,high,B,T6,P1,0,1,15,16,timeout,,1.0,1.0,False,False,False,False,True,False,25,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY009,4,2,V-L,V,low,A,T1,P1,0,1,5,6,completed_auto,1.6151821378,2.0,1.0,False,False,False,True,False,False,25,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY009,4,2,V-L,V,low,A,T2,P2,0,2,5,6,completed_auto,4.8427454137,1.0,0.0,True,False,False,True,False,False,25,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY009,4,2,V-L,V,low,A,T3,P1,1,1,5,6,completed_auto,2.4690193346,1.0,0.0,True,False,False,True,False,False,25,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY009,4,2,V-L,V,low,A,T4,P3,0,3,5,6,completed_auto,3.078930485,1.0,0.0,True,False,False,True,False,False,25,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY009,4,2,V-L,V,low,A,T5,P4,0,4,5,6,completed_auto,2.0115080515,1.0,0.0,True,False,False,True,False,False,25,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY009,4,2,V-L,V,low,A,T6,P5,0,5,5,6,completed_auto,2.1369754096,2.0,1.0,False,False,False,True,False,False,25,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY009,4,3,H-H,H,high,D,T1,P4,0,12,15,16,completed_auto,5.6425481355,1.0,0.0,True,False,False,True,False,False,25,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY009,4,3,H-H,H,high,D,T2,P5,0,15,15,16,completed_auto,7.1427727105,1.0,0.0,True,False,False,True,False,False,25,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY009,4,3,H-H,H,high,D,T3,P1,0,2,15,16,completed_auto,3.7500556152,2.0,1.0,False,False,False,True,False,False,25,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY009,4,3,H-H,H,high,D,T4,P2,0,6,15,16,completed_auto,4.4084042132,4.0,3.0,False,False,False,True,False,False,25,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY009,4,3,H-H,H,high,D,T5,P3,0,8,15,16,timeout,,1.0,1.0,False,False,False,False,True,False,25,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY009,4,3,H-H,H,high,D,T6,P4,1,12,15,16,completed_auto,1.8474868024,1.0,0.0,True,False,False,True,False,False,25,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY009,4,4,H-L,H,low,C,T1,P3,0,3,5,6,completed_auto,5.3705036051,1.0,0.0,True,False,False,True,False,False,25,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY009,4,4,H-L,H,low,C,T2,P4,0,4,5,6,completed_auto,2.0589128059,1.0,0.0,True,False,False,True,False,False,25,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY009,4,4,H-L,H,low,C,T3,P5,0,5,5,6,completed_auto,2.8831991919,1.0,0.0,True,False,False,True,False,False,25,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY009,4,4,H-L,H,low,C,T4,P1,0,1,5,6,completed_auto,5.0325190962,2.0,1.0,False,False,False,True,False,False,25,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY009,4,4,H-L,H,low,C,T5,P3,1,3,5,6,completed_auto,1.4560142606,1.0,0.0,True,False,False,True,False,False,25,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY009,4,4,H-L,H,low,C,T6,P2,0,2,5,6,completed_auto,3.2342705765,1.0,0.0,True,False,False,True,False,False,25,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY010,2,1,H-H,H,high,C,T1,P3,0,7,15,16,completed_auto,11.7048451216,3.0,2.0,False,False,False,True,False,False,19,Yes,Daily,No,Almost always,Usually in a single window,Vertical
+DUMMY010,2,1,H-H,H,high,C,T2,P4,0,10,15,16,timeout,,1.0,1.0,False,False,False,False,True,False,19,Yes,Daily,No,Almost always,Usually in a single window,Vertical
+DUMMY010,2,1,H-H,H,high,C,T3,P5,0,13,15,16,completed_auto,6.5848416717,2.0,1.0,False,False,False,True,False,False,19,Yes,Daily,No,Almost always,Usually in a single window,Vertical
+DUMMY010,2,1,H-H,H,high,C,T4,P1,0,3,15,16,completed_auto,5.3016345184,1.0,0.0,True,False,False,True,False,False,19,Yes,Daily,No,Almost always,Usually in a single window,Vertical
+DUMMY010,2,1,H-H,H,high,C,T5,P3,1,7,15,16,completed_auto,5.9883962339,4.0,3.0,False,False,False,True,False,False,19,Yes,Daily,No,Almost always,Usually in a single window,Vertical
+DUMMY010,2,1,H-H,H,high,C,T6,P2,0,5,15,16,completed_auto,5.1592989638,1.0,0.0,True,False,False,True,False,False,19,Yes,Daily,No,Almost always,Usually in a single window,Vertical
+DUMMY010,2,2,H-L,H,low,D,T1,P4,0,4,5,6,completed_auto,1.4544916468,1.0,0.0,True,False,False,True,False,False,19,Yes,Daily,No,Almost always,Usually in a single window,Vertical
+DUMMY010,2,2,H-L,H,low,D,T2,P5,0,5,5,6,completed_auto,2.8167227292,1.0,0.0,True,False,False,True,False,False,19,Yes,Daily,No,Almost always,Usually in a single window,Vertical
+DUMMY010,2,2,H-L,H,low,D,T3,P1,0,1,5,6,completed_auto,1.480664636,1.0,0.0,True,False,False,True,False,False,19,Yes,Daily,No,Almost always,Usually in a single window,Vertical
+DUMMY010,2,2,H-L,H,low,D,T4,P2,0,2,5,6,completed_auto,1.4625246992,1.0,0.0,True,False,False,True,False,False,19,Yes,Daily,No,Almost always,Usually in a single window,Vertical
+DUMMY010,2,2,H-L,H,low,D,T5,P3,0,3,5,6,completed_auto,1.8649203142,1.0,0.0,True,False,False,True,False,False,19,Yes,Daily,No,Almost always,Usually in a single window,Vertical
+DUMMY010,2,2,H-L,H,low,D,T6,P4,1,4,5,6,completed_auto,2.6303746822,2.0,1.0,False,False,False,True,False,False,19,Yes,Daily,No,Almost always,Usually in a single window,Vertical
+DUMMY010,2,3,V-H,V,high,A,T1,P1,0,2,15,16,completed_auto,3.7955303664,2.0,1.0,False,False,False,True,False,False,19,Yes,Daily,No,Almost always,Usually in a single window,Vertical
+DUMMY010,2,3,V-H,V,high,A,T2,P2,0,4,15,16,completed_auto,4.8058071291,1.0,0.0,True,False,False,True,False,False,19,Yes,Daily,No,Almost always,Usually in a single window,Vertical
+DUMMY010,2,3,V-H,V,high,A,T3,P1,1,2,15,16,completed_auto,3.1053088364,1.0,0.0,True,False,False,True,False,False,19,Yes,Daily,No,Almost always,Usually in a single window,Vertical
+DUMMY010,2,3,V-H,V,high,A,T4,P3,0,8,15,16,completed_auto,4.2040937248,2.0,1.0,False,False,False,True,False,False,19,Yes,Daily,No,Almost always,Usually in a single window,Vertical
+DUMMY010,2,3,V-H,V,high,A,T5,P4,0,11,15,16,completed_auto,5.5774061106,1.0,0.0,True,False,False,True,False,False,19,Yes,Daily,No,Almost always,Usually in a single window,Vertical
+DUMMY010,2,3,V-H,V,high,A,T6,P5,0,15,15,16,completed_auto,3.8424314434,3.0,2.0,False,False,False,True,False,False,19,Yes,Daily,No,Almost always,Usually in a single window,Vertical
+DUMMY010,2,4,V-L,V,low,B,T1,P2,0,2,5,6,completed_auto,2.498527432,1.0,0.0,True,False,False,True,False,False,19,Yes,Daily,No,Almost always,Usually in a single window,Vertical
+DUMMY010,2,4,V-L,V,low,B,T2,P3,0,3,5,6,completed_auto,2.3114496335,1.0,0.0,True,False,False,True,False,False,19,Yes,Daily,No,Almost always,Usually in a single window,Vertical
+DUMMY010,2,4,V-L,V,low,B,T3,P4,0,4,5,6,completed_auto,5.4732593802,1.0,0.0,True,False,False,True,False,False,19,Yes,Daily,No,Almost always,Usually in a single window,Vertical
+DUMMY010,2,4,V-L,V,low,B,T4,P2,1,2,5,6,completed_auto,2.7601575046,1.0,0.0,True,False,False,True,False,False,19,Yes,Daily,No,Almost always,Usually in a single window,Vertical
+DUMMY010,2,4,V-L,V,low,B,T5,P5,0,5,5,6,completed_auto,2.3401358217,1.0,0.0,True,False,False,True,False,False,19,Yes,Daily,No,Almost always,Usually in a single window,Vertical
+DUMMY010,2,4,V-L,V,low,B,T6,P1,0,1,5,6,completed_auto,1.3744433547,1.0,0.0,True,False,False,True,False,False,19,Yes,Daily,No,Almost always,Usually in a single window,Vertical
+DUMMY011,1,1,H-L,H,low,A,T1,P1,0,1,5,6,completed_auto,8.0410463893,2.0,1.0,False,False,False,True,False,False,29,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY011,1,1,H-L,H,low,A,T2,P2,0,2,5,6,completed_auto,6.3372886452,1.0,0.0,True,False,False,True,False,False,29,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY011,1,1,H-L,H,low,A,T3,P1,1,1,5,6,completed_auto,4.9764619031,1.0,0.0,True,False,False,True,False,False,29,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY011,1,1,H-L,H,low,A,T4,P3,0,3,5,6,completed_auto,9.5689657701,1.0,0.0,True,False,False,True,False,False,29,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY011,1,1,H-L,H,low,A,T5,P4,0,4,5,6,completed_auto,11.0732552367,1.0,0.0,True,False,False,True,False,False,29,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY011,1,1,H-L,H,low,A,T6,P5,0,5,5,6,completed_auto,7.0447693535,1.0,0.0,True,False,False,True,False,False,29,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY011,1,2,H-H,H,high,B,T1,P2,0,6,15,16,timeout,,3.0,3.0,False,False,False,False,True,False,29,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY011,1,2,H-H,H,high,B,T2,P3,0,9,15,16,timeout,,4.0,4.0,False,False,False,False,True,False,29,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY011,1,2,H-H,H,high,B,T3,P4,0,12,15,16,completed_auto,18.7319323815,1.0,0.0,True,False,False,True,False,False,29,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY011,1,2,H-H,H,high,B,T4,P2,1,6,15,16,timeout,,3.0,3.0,False,False,False,False,True,False,29,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY011,1,2,H-H,H,high,B,T5,P5,0,14,15,16,completed_auto,5.290717829,1.0,0.0,True,False,False,True,False,False,29,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY011,1,2,H-H,H,high,B,T6,P1,0,1,15,16,completed_auto,10.1796872018,4.0,3.0,False,False,False,True,False,False,29,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY011,1,3,V-L,V,low,C,T1,P3,0,3,5,6,completed_auto,3.2298461883,2.0,1.0,False,False,False,True,False,False,29,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY011,1,3,V-L,V,low,C,T2,P4,0,4,5,6,completed_auto,7.9620207495,2.0,1.0,False,False,False,True,False,False,29,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY011,1,3,V-L,V,low,C,T3,P5,0,5,5,6,completed_auto,6.4967466406,1.0,0.0,True,False,False,True,False,False,29,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY011,1,3,V-L,V,low,C,T4,P1,0,1,5,6,completed_auto,5.0152707611,1.0,0.0,True,False,False,True,False,False,29,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY011,1,3,V-L,V,low,C,T5,P3,1,3,5,6,timeout,,2.0,2.0,False,False,False,False,True,False,29,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY011,1,3,V-L,V,low,C,T6,P2,0,2,5,6,completed_auto,5.9924754176,2.0,1.0,False,False,False,True,False,False,29,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY011,1,4,V-H,V,high,D,T1,P4,0,12,15,16,completed_auto,9.6878882591,1.0,0.0,True,False,False,True,False,False,29,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY011,1,4,V-H,V,high,D,T2,P5,0,15,15,16,completed_auto,10.5634927639,1.0,0.0,True,False,False,True,False,False,29,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY011,1,4,V-H,V,high,D,T3,P1,0,2,15,16,completed_auto,17.1374462578,2.0,1.0,False,False,False,True,False,False,29,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY011,1,4,V-H,V,high,D,T4,P2,0,6,15,16,completed_auto,11.674920439,2.0,1.0,False,False,False,True,False,False,29,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY011,1,4,V-H,V,high,D,T5,P3,0,8,15,16,completed_auto,6.5280840707,1.0,0.0,True,False,False,True,False,False,29,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY011,1,4,V-H,V,high,D,T6,P4,1,12,15,16,completed_auto,7.6773029699,1.0,0.0,True,False,False,True,False,False,29,Yes,Several times a week,Yes,Often,Usually in a single window,Horizontal
+DUMMY012,3,1,V-L,V,low,D,T1,P4,0,4,5,6,completed_auto,3.6047484367,2.0,1.0,False,False,False,True,False,False,26,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY012,3,1,V-L,V,low,D,T2,P5,0,5,5,6,completed_auto,2.0511358776,3.0,2.0,False,False,False,True,False,False,26,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY012,3,1,V-L,V,low,D,T3,P1,0,1,5,6,completed_auto,5.9782821135,1.0,0.0,True,False,False,True,False,False,26,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY012,3,1,V-L,V,low,D,T4,P2,0,2,5,6,completed_auto,2.1212733113,1.0,0.0,True,False,False,True,False,False,26,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY012,3,1,V-L,V,low,D,T5,P3,0,3,5,6,completed_auto,2.4011238015,1.0,0.0,True,False,False,True,False,False,26,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY012,3,1,V-L,V,low,D,T6,P4,1,4,5,6,completed_auto,5.9763534033,1.0,0.0,True,False,False,True,False,False,26,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY012,3,2,V-H,V,high,C,T1,P3,0,7,15,16,completed_auto,2.978486368,1.0,0.0,True,False,False,True,False,False,26,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY012,3,2,V-H,V,high,C,T2,P4,0,10,15,16,completed_auto,4.0641538079,1.0,0.0,True,False,False,True,False,False,26,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY012,3,2,V-H,V,high,C,T3,P5,0,13,15,16,completed_auto,7.8899172592,2.0,1.0,False,False,False,True,False,False,26,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY012,3,2,V-H,V,high,C,T4,P1,0,3,15,16,completed_auto,3.2877545906,1.0,0.0,True,False,False,True,False,False,26,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY012,3,2,V-H,V,high,C,T5,P3,1,7,15,16,completed_auto,6.4009381325,2.0,1.0,False,False,False,True,False,False,26,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY012,3,2,V-H,V,high,C,T6,P2,0,5,15,16,completed_auto,5.1726684325,1.0,0.0,True,False,False,True,False,False,26,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY012,3,3,H-L,H,low,B,T1,P2,0,2,5,6,completed_auto,5.4315748813,1.0,0.0,True,False,False,True,False,False,26,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY012,3,3,H-L,H,low,B,T2,P3,0,3,5,6,completed_auto,3.6990561013,2.0,1.0,False,False,False,True,False,False,26,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY012,3,3,H-L,H,low,B,T3,P4,0,4,5,6,completed_auto,2.2065414752,2.0,1.0,False,False,False,True,False,False,26,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY012,3,3,H-L,H,low,B,T4,P2,1,2,5,6,completed_auto,2.9662376031,1.0,0.0,True,False,False,True,False,False,26,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY012,3,3,H-L,H,low,B,T5,P5,0,5,5,6,completed_auto,2.6991738586,1.0,0.0,True,False,False,True,False,False,26,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY012,3,3,H-L,H,low,B,T6,P1,0,1,5,6,completed_auto,3.4888811017,2.0,1.0,False,False,False,True,False,False,26,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY012,3,4,H-H,H,high,A,T1,P1,0,2,15,16,completed_auto,8.0019509125,1.0,0.0,True,False,False,True,False,False,26,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY012,3,4,H-H,H,high,A,T2,P2,0,4,15,16,completed_auto,12.5661462658,1.0,0.0,True,False,False,True,False,False,26,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY012,3,4,H-H,H,high,A,T3,P1,1,2,15,16,completed_auto,3.2469456016,2.0,1.0,False,False,False,True,False,False,26,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY012,3,4,H-H,H,high,A,T4,P3,0,8,15,16,completed_auto,6.5821754111,3.0,2.0,False,False,False,True,False,False,26,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY012,3,4,H-H,H,high,A,T5,P4,0,11,15,16,completed_auto,6.0012813445,2.0,1.0,False,False,False,True,False,False,26,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY012,3,4,H-H,H,high,A,T6,P5,0,15,15,16,timeout,,1.0,1.0,False,False,False,False,True,False,26,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY013,4,1,V-H,V,high,B,T1,P2,0,6,15,16,completed_auto,7.2412377708,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY013,4,1,V-H,V,high,B,T2,P3,0,9,15,16,completed_auto,3.841114355,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY013,4,1,V-H,V,high,B,T3,P4,0,12,15,16,completed_auto,3.2398253255,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY013,4,1,V-H,V,high,B,T4,P2,1,6,15,16,completed_auto,4.69768087,2.0,1.0,False,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY013,4,1,V-H,V,high,B,T5,P5,0,14,15,16,completed_auto,3.8506037293,2.0,1.0,False,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY013,4,1,V-H,V,high,B,T6,P1,0,1,15,16,completed_auto,3.3950321459,2.0,1.0,False,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY013,4,2,V-L,V,low,A,T1,P1,0,1,5,6,completed_auto,3.1752583691,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY013,4,2,V-L,V,low,A,T2,P2,0,2,5,6,completed_auto,1.9063713742,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY013,4,2,V-L,V,low,A,T3,P1,1,1,5,6,completed_auto,2.5790427843,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY013,4,2,V-L,V,low,A,T4,P3,0,3,5,6,completed_auto,4.1295708037,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY013,4,2,V-L,V,low,A,T5,P4,0,4,5,6,completed_auto,3.2753444254,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY013,4,2,V-L,V,low,A,T6,P5,0,5,5,6,completed_auto,2.824504418,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY013,4,3,H-H,H,high,D,T1,P4,0,12,15,16,completed_auto,6.2677024806,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY013,4,3,H-H,H,high,D,T2,P5,0,15,15,16,completed_auto,4.1831959622,2.0,1.0,False,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY013,4,3,H-H,H,high,D,T3,P1,0,2,15,16,completed_auto,6.5486425672,3.0,2.0,False,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY013,4,3,H-H,H,high,D,T4,P2,0,6,15,16,completed_auto,5.9304241505,4.0,3.0,False,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY013,4,3,H-H,H,high,D,T5,P3,0,8,15,16,completed_auto,9.7156991006,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY013,4,3,H-H,H,high,D,T6,P4,1,12,15,16,completed_auto,4.5167067458,2.0,1.0,False,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY013,4,4,H-L,H,low,C,T1,P3,0,3,5,6,completed_auto,3.8353277078,3.0,2.0,False,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY013,4,4,H-L,H,low,C,T2,P4,0,4,5,6,completed_auto,2.2557195707,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY013,4,4,H-L,H,low,C,T3,P5,0,5,5,6,completed_auto,2.4317410491,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY013,4,4,H-L,H,low,C,T4,P1,0,1,5,6,completed_auto,4.7457908714,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY013,4,4,H-L,H,low,C,T5,P3,1,3,5,6,completed_auto,2.4868942392,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY013,4,4,H-L,H,low,C,T6,P2,0,2,5,6,completed_auto,1.5253077632,1.0,0.0,True,False,False,True,False,False,22,Yes,Daily,Yes,Often,Usually in a single window,Horizontal
+DUMMY014,1,1,H-L,H,low,A,T1,P1,0,1,5,6,completed_auto,2.107446161,2.0,1.0,False,False,False,True,False,False,20,Yes,Several times a week,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY014,1,1,H-L,H,low,A,T2,P2,0,2,5,6,completed_auto,1.5825422381,1.0,0.0,True,False,False,True,False,False,20,Yes,Several times a week,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY014,1,1,H-L,H,low,A,T3,P1,1,1,5,6,completed_auto,1.0825782941,2.0,1.0,False,False,False,True,False,False,20,Yes,Several times a week,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY014,1,1,H-L,H,low,A,T4,P3,0,3,5,6,completed_auto,2.0640634839,1.0,0.0,True,False,False,True,False,False,20,Yes,Several times a week,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY014,1,1,H-L,H,low,A,T5,P4,0,4,5,6,completed_auto,2.6279518939,1.0,0.0,True,False,False,True,False,False,20,Yes,Several times a week,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY014,1,1,H-L,H,low,A,T6,P5,0,5,5,6,completed_auto,1.3585640113,1.0,0.0,True,False,False,True,False,False,20,Yes,Several times a week,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY014,1,2,H-H,H,high,B,T1,P2,0,6,15,16,completed_auto,3.8287134648,2.0,1.0,False,False,False,True,False,False,20,Yes,Several times a week,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY014,1,2,H-H,H,high,B,T2,P3,0,9,15,16,timeout,,0.0,0.0,,True,False,False,True,False,20,Yes,Several times a week,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY014,1,2,H-H,H,high,B,T3,P4,0,12,15,16,completed_auto,4.1466538172,4.0,3.0,False,False,False,True,False,False,20,Yes,Several times a week,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY014,1,2,H-H,H,high,B,T4,P2,1,6,15,16,completed_auto,6.0637567944,3.0,2.0,False,False,False,True,False,False,20,Yes,Several times a week,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY014,1,2,H-H,H,high,B,T5,P5,0,14,15,16,completed_auto,6.3862775693,1.0,0.0,True,False,False,True,False,False,20,Yes,Several times a week,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY014,1,2,H-H,H,high,B,T6,P1,0,1,15,16,timeout,,1.0,1.0,False,False,False,False,True,False,20,Yes,Several times a week,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY014,1,3,V-L,V,low,C,T1,P3,0,3,5,6,completed_auto,2.6031420928,1.0,0.0,True,False,False,True,False,False,20,Yes,Several times a week,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY014,1,3,V-L,V,low,C,T2,P4,0,4,5,6,completed_auto,1.7491875863,1.0,0.0,True,False,False,True,False,False,20,Yes,Several times a week,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY014,1,3,V-L,V,low,C,T3,P5,0,5,5,6,completed_auto,1.6743488943,2.0,1.0,False,False,False,True,False,False,20,Yes,Several times a week,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY014,1,3,V-L,V,low,C,T4,P1,0,1,5,6,completed_auto,2.0614309548,2.0,1.0,False,False,False,True,False,False,20,Yes,Several times a week,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY014,1,3,V-L,V,low,C,T5,P3,1,3,5,6,completed_auto,2.2778034344,2.0,1.0,False,False,False,True,False,False,20,Yes,Several times a week,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY014,1,3,V-L,V,low,C,T6,P2,0,2,5,6,completed_auto,2.0306845024,2.0,1.0,False,False,False,True,False,False,20,Yes,Several times a week,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY014,1,4,V-H,V,high,D,T1,P4,0,12,15,16,completed_auto,4.6436879431,2.0,1.0,False,False,False,True,False,False,20,Yes,Several times a week,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY014,1,4,V-H,V,high,D,T2,P5,0,15,15,16,completed_auto,3.0064250118,1.0,0.0,True,False,False,True,False,False,20,Yes,Several times a week,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY014,1,4,V-H,V,high,D,T3,P1,0,2,15,16,completed_auto,4.0205436128,2.0,1.0,False,False,False,True,False,False,20,Yes,Several times a week,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY014,1,4,V-H,V,high,D,T4,P2,0,6,15,16,completed_auto,4.144700037,3.0,2.0,False,False,False,True,False,False,20,Yes,Several times a week,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY014,1,4,V-H,V,high,D,T5,P3,0,8,15,16,completed_auto,3.4214486261,1.0,0.0,True,False,False,True,False,False,20,Yes,Several times a week,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY014,1,4,V-H,V,high,D,T6,P4,1,12,15,16,completed_auto,5.6694848015,1.0,0.0,True,False,False,True,False,False,20,Yes,Several times a week,Yes,Sometimes,Usually in a single window,Horizontal
+DUMMY015,3,1,V-L,V,low,D,T1,P4,0,4,5,6,completed_auto,3.4941285855,1.0,0.0,True,False,False,True,False,False,25,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY015,3,1,V-L,V,low,D,T2,P5,0,5,5,6,completed_auto,2.287686489,1.0,0.0,True,False,False,True,False,False,25,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY015,3,1,V-L,V,low,D,T3,P1,0,1,5,6,completed_auto,4.8903465253,1.0,0.0,True,False,False,True,False,False,25,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY015,3,1,V-L,V,low,D,T4,P2,0,2,5,6,completed_auto,3.1127610463,1.0,0.0,True,False,False,True,False,False,25,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY015,3,1,V-L,V,low,D,T5,P3,0,3,5,6,completed_auto,2.2471831766,1.0,0.0,True,False,False,True,False,False,25,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY015,3,1,V-L,V,low,D,T6,P4,1,4,5,6,completed_auto,1.4138334119,2.0,1.0,False,False,False,True,False,False,25,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY015,3,2,V-H,V,high,C,T1,P3,0,7,15,16,completed_auto,3.9542249697,3.0,2.0,False,False,False,True,False,False,25,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY015,3,2,V-H,V,high,C,T2,P4,0,10,15,16,completed_auto,2.8713073751,1.0,0.0,True,False,False,True,False,False,25,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY015,3,2,V-H,V,high,C,T3,P5,0,13,15,16,completed_auto,8.8685966567,2.0,1.0,False,False,False,True,False,False,25,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY015,3,2,V-H,V,high,C,T4,P1,0,3,15,16,completed_auto,4.3769952147,1.0,0.0,True,False,False,True,False,False,25,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY015,3,2,V-H,V,high,C,T5,P3,1,7,15,16,completed_auto,5.4237303079,2.0,1.0,False,False,False,True,False,False,25,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY015,3,2,V-H,V,high,C,T6,P2,0,5,15,16,completed_auto,4.9108773169,4.0,3.0,False,False,False,True,False,False,25,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY015,3,3,H-L,H,low,B,T1,P2,0,2,5,6,completed_auto,2.5595119004,1.0,0.0,True,False,False,True,False,False,25,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY015,3,3,H-L,H,low,B,T2,P3,0,3,5,6,completed_auto,4.1154256794,1.0,0.0,True,False,False,True,False,False,25,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY015,3,3,H-L,H,low,B,T3,P4,0,4,5,6,completed_auto,3.9927757794,2.0,1.0,False,False,False,True,False,False,25,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY015,3,3,H-L,H,low,B,T4,P2,1,2,5,6,completed_auto,2.6972271196,1.0,0.0,True,False,False,True,False,False,25,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY015,3,3,H-L,H,low,B,T5,P5,0,5,5,6,completed_auto,4.1350869685,1.0,0.0,True,False,False,True,False,False,25,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY015,3,3,H-L,H,low,B,T6,P1,0,1,5,6,completed_auto,2.8111761482,1.0,0.0,True,False,False,True,False,False,25,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY015,3,4,H-H,H,high,A,T1,P1,0,2,15,16,completed_auto,7.9423512945,2.0,1.0,False,False,False,True,False,False,25,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY015,3,4,H-H,H,high,A,T2,P2,0,4,15,16,completed_auto,3.937456814,1.0,0.0,True,False,False,True,False,False,25,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY015,3,4,H-H,H,high,A,T3,P1,1,2,15,16,timeout,,0.0,0.0,,True,False,False,True,False,25,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY015,3,4,H-H,H,high,A,T4,P3,0,8,15,16,completed_auto,6.2520101179,2.0,1.0,False,False,False,True,False,False,25,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY015,3,4,H-H,H,high,A,T5,P4,0,11,15,16,completed_auto,4.5184785042,2.0,1.0,False,False,False,True,False,False,25,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY015,3,4,H-H,H,high,A,T6,P5,0,15,15,16,completed_auto,10.1917486626,2.0,1.0,False,False,False,True,False,False,25,Yes,Daily,No,Often,Usually in a single window,Horizontal
+DUMMY016,2,1,H-H,H,high,C,T1,P3,0,7,15,16,completed_auto,4.8849420716,2.0,1.0,False,False,False,True,False,False,28,Yes,Several times a week,No,Often,Usually in a single window,Vertical
+DUMMY016,2,1,H-H,H,high,C,T2,P4,0,10,15,16,completed_auto,8.2534247297,2.0,1.0,False,False,False,True,False,False,28,Yes,Several times a week,No,Often,Usually in a single window,Vertical
+DUMMY016,2,1,H-H,H,high,C,T3,P5,0,13,15,16,completed_auto,10.655294338,4.0,3.0,False,False,False,True,False,False,28,Yes,Several times a week,No,Often,Usually in a single window,Vertical
+DUMMY016,2,1,H-H,H,high,C,T4,P1,0,3,15,16,completed_auto,6.8351201599,2.0,1.0,False,False,False,True,False,False,28,Yes,Several times a week,No,Often,Usually in a single window,Vertical
+DUMMY016,2,1,H-H,H,high,C,T5,P3,1,7,15,16,completed_auto,8.2461167547,2.0,1.0,False,False,False,True,False,False,28,Yes,Several times a week,No,Often,Usually in a single window,Vertical
+DUMMY016,2,1,H-H,H,high,C,T6,P2,0,5,15,16,completed_auto,6.6454555514,1.0,0.0,True,False,False,True,False,False,28,Yes,Several times a week,No,Often,Usually in a single window,Vertical
+DUMMY016,2,2,H-L,H,low,D,T1,P4,0,4,5,6,completed_auto,3.1630350796,2.0,1.0,False,False,False,True,False,False,28,Yes,Several times a week,No,Often,Usually in a single window,Vertical
+DUMMY016,2,2,H-L,H,low,D,T2,P5,0,5,5,6,completed_auto,5.716440923,2.0,1.0,False,False,False,True,False,False,28,Yes,Several times a week,No,Often,Usually in a single window,Vertical
+DUMMY016,2,2,H-L,H,low,D,T3,P1,0,1,5,6,completed_auto,4.1107626646,1.0,0.0,True,False,False,True,False,False,28,Yes,Several times a week,No,Often,Usually in a single window,Vertical
+DUMMY016,2,2,H-L,H,low,D,T4,P2,0,2,5,6,completed_auto,5.4750203,1.0,0.0,True,False,False,True,False,False,28,Yes,Several times a week,No,Often,Usually in a single window,Vertical
+DUMMY016,2,2,H-L,H,low,D,T5,P3,0,3,5,6,completed_auto,2.801909746,2.0,1.0,False,False,False,True,False,False,28,Yes,Several times a week,No,Often,Usually in a single window,Vertical
+DUMMY016,2,2,H-L,H,low,D,T6,P4,1,4,5,6,completed_auto,3.3244348867,1.0,0.0,True,False,False,True,False,False,28,Yes,Several times a week,No,Often,Usually in a single window,Vertical
+DUMMY016,2,3,V-H,V,high,A,T1,P1,0,2,15,16,completed_auto,4.0821250145,1.0,0.0,True,False,False,True,False,False,28,Yes,Several times a week,No,Often,Usually in a single window,Vertical
+DUMMY016,2,3,V-H,V,high,A,T2,P2,0,4,15,16,completed_auto,15.0003382592,3.0,2.0,False,False,False,True,False,False,28,Yes,Several times a week,No,Often,Usually in a single window,Vertical
+DUMMY016,2,3,V-H,V,high,A,T3,P1,1,2,15,16,completed_auto,4.9182636676,2.0,1.0,False,False,False,True,False,False,28,Yes,Several times a week,No,Often,Usually in a single window,Vertical
+DUMMY016,2,3,V-H,V,high,A,T4,P3,0,8,15,16,completed_auto,6.2401099842,1.0,0.0,True,False,False,True,False,False,28,Yes,Several times a week,No,Often,Usually in a single window,Vertical
+DUMMY016,2,3,V-H,V,high,A,T5,P4,0,11,15,16,completed_auto,4.6665392398,1.0,0.0,True,False,False,True,False,False,28,Yes,Several times a week,No,Often,Usually in a single window,Vertical
+DUMMY016,2,3,V-H,V,high,A,T6,P5,0,15,15,16,completed_auto,4.2588460288,2.0,1.0,False,False,False,True,False,False,28,Yes,Several times a week,No,Often,Usually in a single window,Vertical
+DUMMY016,2,4,V-L,V,low,B,T1,P2,0,2,5,6,completed_auto,3.1132277289,1.0,0.0,True,False,False,True,False,False,28,Yes,Several times a week,No,Often,Usually in a single window,Vertical
+DUMMY016,2,4,V-L,V,low,B,T2,P3,0,3,5,6,completed_auto,4.9297805269,2.0,1.0,False,False,False,True,False,False,28,Yes,Several times a week,No,Often,Usually in a single window,Vertical
+DUMMY016,2,4,V-L,V,low,B,T3,P4,0,4,5,6,completed_auto,3.0622986807,2.0,1.0,False,False,False,True,False,False,28,Yes,Several times a week,No,Often,Usually in a single window,Vertical
+DUMMY016,2,4,V-L,V,low,B,T4,P2,1,2,5,6,completed_auto,1.1583767196,1.0,0.0,True,False,False,True,False,False,28,Yes,Several times a week,No,Often,Usually in a single window,Vertical
+DUMMY016,2,4,V-L,V,low,B,T5,P5,0,5,5,6,completed_auto,1.9759517075,1.0,0.0,True,False,False,True,False,False,28,Yes,Several times a week,No,Often,Usually in a single window,Vertical
+DUMMY016,2,4,V-L,V,low,B,T6,P1,0,1,5,6,completed_auto,2.6665495753,1.0,0.0,True,False,False,True,False,False,28,Yes,Several times a week,No,Often,Usually in a single window,Vertical
