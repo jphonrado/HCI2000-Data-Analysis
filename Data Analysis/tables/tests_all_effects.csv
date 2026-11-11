@@ -1,0 +1,10 @@
+"outcome","model","effect","n","stat_name","stat","df1","df2","p","effect_size_name","effect_size","p_holm","significant_after_holm"
+"Retrieval time","RM-ANOVA","Orientation",16,"F",6.71277208538391,1,15,0.020466201243328,"partial eta^2",0.30916237037751,0.0500546075381189,FALSE
+"Retrieval time","RM-ANOVA","Tab load",16,"F",139.682014463523,1,15,5.32096686149304e-09,"partial eta^2",0.903026864163724,5.32096686149304e-09,TRUE
+"Retrieval time","RM-ANOVA","Interaction",16,"F",8.1406484974979,1,15,0.0120884135666533,"partial eta^2",0.351789989739402,0.0362652406999598,TRUE
+"First-selection accuracy","Logistic mixed model (LRT)","Orientation",16,"Chi^2",3.23823700481216,1,NA,0.071938009928684,"odds ratio (V vs H)",1.48530862176717,0.071938009928684,FALSE
+"First-selection accuracy","Logistic mixed model (LRT)","Tab load",16,"Chi^2",40.7974711027363,1,NA,1.68851457406375e-10,"odds ratio (high vs low)",0.254218905939242,3.37702914812749e-10,TRUE
+"First-selection accuracy","Logistic mixed model (LRT)","Interaction",16,"Chi^2",2.85293084899354,1,NA,0.0912075258689637,"ratio of odds ratios",2.1122448966046,0.0912075258689637,FALSE
+"Weighted NASA-TLX","RM-ANOVA","Orientation",15,"F",7.38316656856975,1,14,0.016684869179373,"partial eta^2",0.345279383429673,0.0500546075381189,FALSE
+"Weighted NASA-TLX","RM-ANOVA","Tab load",15,"F",650.509275699503,1,14,3.8954493172821e-13,"partial eta^2",0.978931821553186,1.16863479518463e-12,TRUE
+"Weighted NASA-TLX","RM-ANOVA","Interaction",15,"F",6.97665330323756,1,14,0.019353705839886,"partial eta^2",0.332591343451378,0.038707411679772,TRUE

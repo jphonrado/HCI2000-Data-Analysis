@@ -1,0 +1,7 @@
+"outcome","comparison","mean_difference","test","statistic","p","effect_size_name","effect_size","interaction_significant"
+"Retrieval time","Horizontal - Vertical at low load",0.045,"paired t",0.162,0.874,"Cohen's d",0.04,TRUE
+"Retrieval time","Horizontal - Vertical at high load",1.152,"paired t",3.542,0.00296,"Cohen's d",0.885,TRUE
+"First-selection accuracy","Horizontal - Vertical at low load",0,"paired t",0,1,"Cohen's d",0,FALSE
+"First-selection accuracy","Horizontal - Vertical at high load",-0.177,"paired t",-2.738,0.0152,"Cohen's d",-0.685,FALSE
+"Weighted NASA-TLX","Horizontal - Vertical at low load",-1.333,"paired t",-0.7,0.495,"Cohen's d",-0.181,TRUE
+"Weighted NASA-TLX","Horizontal - Vertical at high load",6.311,"paired t",4.218,0.00086,"Cohen's d",1.089,TRUE
