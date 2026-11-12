@@ -1,5 +1,0 @@
-orientation,tab_load,trials,completed,timed_out,interrupted,no_selection,accuracy_attempts,accuracy_percent,mean_incorrect_selections_completed,mean_tab_switches_completed,mean_tab_switches_timed_out
-H,high,96,83,12,1,4,91,30.77,1.06,2.06,1.33
-H,low,96,95,1,0,0,96,71.88,0.33,1.33,2.0
-V,high,96,93,3,0,1,95,48.42,0.69,1.69,0.67
-V,low,96,95,1,0,0,96,71.88,0.31,1.31,2.0

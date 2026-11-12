@@ -1,7 +1,0 @@
-,,mean_rt_s,mean_rt_s,mean_rt_s,first_try_accuracy,first_try_accuracy,first_try_accuracy,weighted_tlx,weighted_tlx,weighted_tlx
-,,count,mean,std,count,mean,std,count,mean,std
-orientation,tab_load,,,,,,,,,
-H,high,16,7.57,1.83,16,0.31,0.14,15,53.42,7.55
-H,low,16,3.69,1.39,16,0.72,0.15,15,22.22,7.95
-V,high,16,6.42,2.47,16,0.49,0.19,15,47.11,6.57
-V,low,16,3.65,1.26,16,0.72,0.23,15,23.56,7.22
