@@ -2,7 +2,15 @@
 # HCI2000 - 2.3 Comparing conditions (paper section 4.7.4)
 #
 # Run this AFTER main.ipynb. It reads the cleaned tables saved in notebook 1.3
-# and the analysis routes chosen in notebook 2.2.4.
+# and the analysis routes chosen in notebook 2.2.4, then tests:
+#   RQ1  orientation main effect   (H0,1)
+#   RQ2  tab-load main effect      (H0,2)
+#   RQ3  orientation x load        (H0,3, primary)
+# for retrieval time, first-selection accuracy and weighted NASA-TLX.
+#
+# How to run: open in RStudio and click "Source", or in a terminal:
+#   Rscript analysis.R
+# Results are printed and saved as CSV files in <DATA_DIR>/results/.
 # =============================================================================
 
 
@@ -18,9 +26,9 @@ ALPHA <- 0.05
 options(width = 200)   # print wide tables on one line
 
 # Install any missing packages once, then load them.
-#   afex    - repeated-measures ANOVA (parametric route)
-#   ARTool  - aligned rank transform ANOVA (non-parametric route)
-#   lme4    - logistic mixed model for first-selection accuracy
+#   afex   - repeated-measures ANOVA (parametric route)
+#   ARTool - aligned rank transform ANOVA (non-parametric route)
+#   lme4   - logistic mixed model for first-selection accuracy
 #   emmeans - simple effects for accuracy follow-ups (installed with ARTool)
 packages <- c("afex", "ARTool", "lme4", "emmeans")
 missing <- packages[!vapply(packages, requireNamespace, logical(1), quietly = TRUE)]
@@ -32,7 +40,6 @@ suppressPackageStartupMessages({
   library(emmeans)
 })
 
-# Read the files saved by main.ipynb
 setwd(path.expand(PROJECT_DIR))
 cleaned_dir <- file.path(DATA_DIR, "cleaned")
 results_dir <- file.path(DATA_DIR, "results")
@@ -63,12 +70,12 @@ for (col in c("include_rt", "include_accuracy", "first_selection_correct",
   trial_data[[col]] <- as_logical(trial_data[[col]])
 }
 
-# The route chosen for each outcome in notebook 2.2.4
 ROUTE_LIST <- setNames(routes$route, routes$outcome)
 route_for <- function(outcome) ROUTE_LIST[[outcome]]
 
 cat("Routes from notebook 2.2.4:\n")
 print(routes, row.names = FALSE)
+
 
 # ---- 2.3.1 Retrieval time and weighted NASA-TLX ------------------------------
 # One value per participant x condition (condition_level.csv).
@@ -122,7 +129,6 @@ continuous_results <- rbind(
   analyse_continuous("weighted_tlx", route_for("weighted_tlx"))
 )
 
-print(continuous_results, row.names = FALSE, digits = 3)
 
 # ---- 2.3.2 First-selection accuracy -------------------------------------------
 # Trial level (trial_level.csv), only trials marked include_accuracy.
@@ -171,8 +177,8 @@ if (!is.null(accuracy_models)) {
             "This is reported, not treated as a failure.")
   }
   # Odds ratios: main effects from the additive model, interaction from the full model.
-  #   orientationV              - odds of a correct first selection, vertical vs horizontal
-  #   tab_loadhigh              - high vs low load
+  #   orientationV          - odds of a correct first selection, vertical vs horizontal
+  #   tab_loadhigh          - high vs low load
   #   orientationV:tab_loadhigh - how much the vertical/horizontal OR changes at high load
   accuracy_results <- rbind(
     lrt_row(m$load_only,   m$additive, "orientation", m$additive, "orientationV"),
@@ -198,7 +204,6 @@ if (!is.null(accuracy_models)) {
   accuracy_results <- analyse_continuous("accuracy_pct", ROUTE_LIST[["accuracy_pct"]])
 }
 
-print(accuracy_results, row.names = FALSE, digits = 3)
 
 # ---- 2.3.3 Holm adjustment and hypothesis decisions --------------------------
 # Each null hypothesis (H0,1 orientation; H0,2 load; H0,3 interaction) is tested
@@ -214,16 +219,12 @@ hypotheses <- data.frame(
   hypothesis = c("H0,1 (RQ1)", "H0,2 (RQ2)", "H0,3 (RQ3, primary)"),
   effect = c("orientation", "load", "interaction")
 )
-hypotheses$rejected <- vapply(hypotheses$effect, function(e) {
-  any(all_results$significant[all_results$effect == e])
-}, logical(1))
+hypotheses$rejected <- vapply(hypotheses$effect, function(e) any(all_results$significant[all_results$effect == e]), logical(1))
 hypotheses$outcomes_responsible <- vapply(hypotheses$effect, function(e) {
   hits <- all_results$outcome[all_results$effect == e & all_results$significant]
   if (length(hits) == 0) "-" else paste(hits, collapse = ", ")
 }, character(1))
 
-print(all_results[, c("outcome", "effect", "p", "p_holm", "significant")], row.names = FALSE, digits = 3)
-print(hypotheses, row.names = FALSE)
 
 # ---- 2.3.4 Follow-ups for significant interactions ---------------------------
 # For each outcome whose interaction is significant (Holm-adjusted), compare the
@@ -249,17 +250,21 @@ follow_up_continuous <- function(outcome, route) {
     d <- h - v
     if (route == "parametric") {
       t <- t.test(h, v, paired = TRUE)
-      data.frame(tab_load = load, mean_difference_H_minus_V = mean(d), test = "paired t-test",
-                 statistic = unname(t$statistic), effect_size = mean(d) / sd(d),
-                 effect_size_type = "Cohen's d_z", p = t$p.value)
+      data.frame(test = "paired t-test", statistic = unname(t$statistic),
+                 effect_size = mean(d) / sd(d), effect_size_type = "Cohen's d_z", p = t$p.value)
     } else {
       w <- suppressWarnings(wilcox.test(h, v, paired = TRUE, exact = FALSE))
-      data.frame(tab_load = load, mean_difference_H_minus_V = mean(d), test = "Wilcoxon signed-rank",
-                 statistic = unname(w$statistic), effect_size = rank_biserial(d),
-                 effect_size_type = "rank-biserial r", p = w$p.value)
+      data.frame(test = "Wilcoxon signed-rank", statistic = unname(w$statistic),
+                 effect_size = rank_biserial(d), effect_size_type = "rank-biserial r", p = w$p.value)
     }
   })
-  cbind(outcome = outcome, do.call(rbind, rows))
+  cbind(data.frame(outcome = outcome, tab_load = c("low", "high"),
+                   mean_difference_H_minus_V = c(
+                     mean(df[df$orientation == "H" & df$tab_load == "low", outcome]) -
+                       mean(df[df$orientation == "V" & df$tab_load == "low", outcome]),
+                     mean(df[df$orientation == "H" & df$tab_load == "high", outcome]) -
+                       mean(df[df$orientation == "V" & df$tab_load == "high", outcome]))),
+        do.call(rbind, rows))
 }
 
 follow_up_accuracy <- function() {
@@ -276,10 +281,27 @@ follow_ups <- do.call(rbind, lapply(significant_interactions, function(outcome) 
   else follow_up_continuous(outcome, route_for(outcome))
 }))
 
+
+# ---- 2.3.5 Print and save results --------------------------------------------
+
+show <- function(df) {
+  out <- df
+  num <- vapply(out, is.numeric, logical(1))
+  out[num] <- lapply(out[num], function(x) signif(x, 3))
+  print(out, row.names = FALSE)
+}
+
+cat("\n=== 2.3.1-2.3.3 Test results (p_holm: Holm-adjusted within each effect) ===\n")
+show(all_results)
+
+cat("\n=== Hypothesis decisions ===\n")
+print(hypotheses, row.names = FALSE)
+
+cat("\n=== 2.3.4 Follow-ups for significant interactions (difference = H - V) ===\n")
 if (is.null(follow_ups)) {
   cat("No significant interaction, so no follow-ups.\n")
 } else {
-  print(follow_ups, row.names = FALSE, digits = 3)
+  show(follow_ups)
   for (outcome in unique(follow_ups$outcome[!is.na(follow_ups$mean_difference_H_minus_V)])) {
     d <- follow_ups$mean_difference_H_minus_V[follow_ups$outcome == outcome]
     cat(sprintf("%s: H - V is %.3f at low load and %.3f at high load -> %s\n", outcome, d[1], d[2],
@@ -288,62 +310,7 @@ if (is.null(follow_ups)) {
   }
 }
 
-# ---- 2.3.5 Saving the results --------------------------------------------------
 write.csv(all_results, file.path(results_dir, "test_results.csv"), row.names = FALSE)
 write.csv(hypotheses, file.path(results_dir, "hypothesis_decisions.csv"), row.names = FALSE)
-if (!is.null(follow_ups)) {
-  write.csv(follow_ups, file.path(results_dir, "follow_ups.csv"), row.names = FALSE)
-}
-cat("\nResults saved to", normalizePath(results_dir), "\n")
-print(list.files(results_dir))
-
-# ---- 2.3.6 Visualising the orientation difference -----------------------------
-# One panel per outcome. Each grey line is one participant's orientation
-# difference (Horizontal - Vertical) at low and high load; the blue line is the
-# mean with a 95% confidence interval. Lines that are not flat show the
-# interaction (RQ3); where the blue points sit relative to 0 shows the
-# follow-ups from 2.3.4. Accuracy uses each participant's accuracy %.
-# The figure appears in the RStudio Plots pane and is saved as a PNG.
-
-PLOT_OUTCOMES <- list(
-  mean_rt_s    = list(title = "Retrieval time (s)",          note = "above 0: horizontal slower"),
-  accuracy_pct = list(title = "First-selection accuracy (%)", note = "below 0: horizontal less accurate"),
-  weighted_tlx = list(title = "Weighted NASA-TLX",            note = "above 0: horizontal more demanding")
-)
-
-orientation_gap <- function(outcome) {
-  df <- complete_participants(condition_data, outcome)
-  w <- tapply(df[[outcome]], list(df$participant, paste(df$orientation, df$tab_load)), mean)
-  cbind(low = w[, "H low"] - w[, "V low"], high = w[, "H high"] - w[, "V high"])
-}
-
-draw_orientation_gap <- function() {
-  old <- par(mfrow = c(1, 3), mar = c(4.5, 4.8, 4.2, 1), las = 1, family = "sans",
-             col.axis = "#52514e", col.lab = "#52514e", fg = "#52514e")
-  on.exit(par(old))
-  for (outcome in names(PLOT_OUTCOMES)) {
-    gap <- orientation_gap(outcome)
-    n <- nrow(gap)
-    mean_gap <- colMeans(gap)
-    ci <- qt(0.975, n - 1) * apply(gap, 2, sd) / sqrt(n)
-    ylim <- range(c(gap, mean_gap - ci, mean_gap + ci, 0))
-    plot(NA, xlim = c(0.75, 2.25), ylim = ylim, xaxt = "n", bty = "l",
-         xlab = "Tab load", ylab = "Horizontal - Vertical")
-    abline(h = pretty(ylim), col = "#e5e4e0", lwd = 0.8)          # light grid
-    abline(h = 0, col = "#8a8984", lty = 2, lwd = 1.2)             # no difference
-    axis(1, at = 1:2, labels = c("Low", "High"))
-    segments(1, gap[, "low"], 2, gap[, "high"], col = "#cfcdc6", lwd = 1)              # participants
-    points(rep(1:2, each = n), c(gap[, "low"], gap[, "high"]), pch = 16, col = "#bdbbb3", cex = 0.9)
-    arrows(1:2, mean_gap - ci, 1:2, mean_gap + ci, angle = 90, code = 3, length = 0.05,  # 95% CI
-           col = "#2a78d6", lwd = 2)
-    lines(1:2, mean_gap, col = "#2a78d6", lwd = 2.5)                                     # mean
-    points(1:2, mean_gap, pch = 16, col = "#2a78d6", cex = 1.8)
-    title(main = PLOT_OUTCOMES[[outcome]]$title, adj = 0, line = 2, cex.main = 1.1, font.main = 1, col.main = "#0b0b0b")
-    mtext(PLOT_OUTCOMES[[outcome]]$note, side = 3, adj = 0, line = 0.7, cex = 0.75, col = "#52514e")
-  }
-}
-
-draw_orientation_gap()                                   # show in RStudio
-png(file.path(results_dir, "orientation_gap_by_load.png"), width = 1800, height = 650, res = 150)
-draw_orientation_gap()                                   # save as PNG
-invisible(dev.off())
+if (!is.null(follow_ups)) write.csv(follow_ups, file.path(results_dir, "follow_ups.csv"), row.names = FALSE)
+cat("\nSaved to", results_dir, "\n")
